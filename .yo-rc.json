@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "cardsproxy",
+    "packageName": "ie.aib.dbbe.cards.proxy",
+    "packageFolder": "ie/aib/dbbe/cards/proxy",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "no",
+    "devDatabaseType": "no",
+    "prodDatabaseType": "no",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.2.0",
+    "jwtSecretKey": "ZDcyYTIyZTU5MjU2MTU0ZTAwZTQzOWFhNmRiMWQ4ZGVhOTgwMzMxNTUwNzBmMGNhYTY2NTZlOWUxOGM0OTY3NDEwYTBiYTVlM2JiNmY4MDQ4YmMxNzM5MDhlYzBkOTM2ODI5NDRjN2JjNmU5ZWIzZTdmNTc2M2E1ZjU2MDM2OGE=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "hughrossdublin",
+  "repository-name": "cardsproxy"
+}
