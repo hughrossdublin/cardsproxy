@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-22T16:06:27.211Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="Jyewk2gUXBMHErY0vrAR" version="12.8.8" type="github">
+<mxfile modified="2020-04-22T16:12:57.321Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="tqMKZKL6MDmG9Nnru20l" version="12.8.8" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="1406" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
             <mxPoint x="1360" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6oNJGKLIgyjYE0U5j6M9-5" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.047;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QfznqnuBZ1IlKUxBiRQi-1" target="QfznqnuBZ1IlKUxBiRQi-6" edge="1">
+        <mxCell id="6oNJGKLIgyjYE0U5j6M9-5" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=-0.047;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;shadow=0;dashed=1;strokeColor=#FF0000;opacity=35;" parent="1" source="QfznqnuBZ1IlKUxBiRQi-1" target="QfznqnuBZ1IlKUxBiRQi-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1120" y="480" as="sourcePoint" />
             <mxPoint x="1170" y="430" as="targetPoint" />
@@ -255,6 +255,9 @@
         </mxCell>
         <mxCell id="n90fWTQ8XHFbxvg9ftpo-26" value="&lt;h1&gt;CFI&lt;/h1&gt;&lt;p&gt;Linux Firewall rule blocks requests to Alpha auth service so VIP only directs to Omega.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="897" y="800" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n90fWTQ8XHFbxvg9ftpo-28" value="&lt;h1&gt;IHS&lt;/h1&gt;&lt;p&gt;Maintenance configuration is active&lt;br&gt;External requests receive maintenance page&lt;br&gt;&lt;span&gt;Alpha OS Firewall Rule blocks requests from IHS VIP&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="897" y="294" width="190" height="116" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
