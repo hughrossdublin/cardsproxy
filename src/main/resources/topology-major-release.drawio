@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-22T16:12:57.321Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="tqMKZKL6MDmG9Nnru20l" version="12.8.8" type="github">
+<mxfile modified="2020-04-22T16:13:39.100Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="-KMiMpHqkJA-VZGYPRFO" version="12.8.8" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="1406" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -256,8 +256,8 @@
         <mxCell id="n90fWTQ8XHFbxvg9ftpo-26" value="&lt;h1&gt;CFI&lt;/h1&gt;&lt;p&gt;Linux Firewall rule blocks requests to Alpha auth service so VIP only directs to Omega.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="897" y="800" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="n90fWTQ8XHFbxvg9ftpo-28" value="&lt;h1&gt;IHS&lt;/h1&gt;&lt;p&gt;Maintenance configuration is active&lt;br&gt;External requests receive maintenance page&lt;br&gt;&lt;span&gt;Alpha OS Firewall Rule blocks requests from IHS VIP&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="897" y="294" width="190" height="116" as="geometry" />
+        <mxCell id="n90fWTQ8XHFbxvg9ftpo-28" value="&lt;h1&gt;IHS&lt;/h1&gt;&lt;p&gt;Maintenance configuration is active&lt;br&gt;External requests receive maintenance page&lt;br&gt;&lt;span&gt;Alpha OS Firewall Rule blocks requests from IHS VIP&lt;br&gt;Deployment to Alpha can start&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="870" y="290" width="190" height="116" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
