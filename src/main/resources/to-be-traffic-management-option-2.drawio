@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-23T18:45:07.639Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="aTEIqw6-r6M34CQfyJI8" version="13.0.1" type="github">
+<mxfile modified="2020-04-23T18:47:49.664Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="G28oZ2A8v4Dg7DNlqCKa" version="13.0.1" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="1406" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="QfznqnuBZ1IlKUxBiRQi-9" value="ISEC" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;strokeWidth=1;fontFamily=Verdana;fontSize=14;fillColor=#f5f5f5;strokeColor=none;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="390" width="1240" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="QfznqnuBZ1IlKUxBiRQi-11" value="Edge&lt;br&gt;alphagateway.aib.pri" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
+        <mxCell id="QfznqnuBZ1IlKUxBiRQi-11" value="API Gateway (Edge)&lt;br&gt;alphagateway.aib.pri" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="529" y="640" width="271" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QfznqnuBZ1IlKUxBiRQi-12" value="Edge&lt;br&gt;omegagateway.aib.pri" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
@@ -106,10 +106,10 @@
             <mxPoint x="810" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EP9Ph4Vk5-Rlfjb0yMCm-6" value="Content IHS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="EP9Ph4Vk5-Rlfjb0yMCm-6" value="Content Gateway&lt;br&gt;(IHS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="813" y="640" width="87" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EP9Ph4Vk5-Rlfjb0yMCm-10" value="Content IHS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="EP9Ph4Vk5-Rlfjb0yMCm-10" value="Content &lt;br&gt;(IHS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="1333" y="640" width="87" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EP9Ph4Vk5-Rlfjb0yMCm-17" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.881;entryY=1.063;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="6oNJGKLIgyjYE0U5j6M9-28" target="QfznqnuBZ1IlKUxBiRQi-12" edge="1">
@@ -172,8 +172,8 @@
             <mxPoint x="1010" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7arDR_sjY8IiMj0KGwgR-5" value="&lt;h1&gt;Traffic Gateway&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Splits API and Content requests&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Manages traffic during releases&lt;/li&gt;&lt;li&gt;Maintenance page&lt;/li&gt;&lt;li&gt;internal / external user DC split&lt;/li&gt;&lt;li&gt;Keeps IPS free from non-product config&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1001" y="560" width="249" height="140" as="geometry" />
+        <mxCell id="7arDR_sjY8IiMj0KGwgR-5" value="&lt;h1&gt;Traffic Gateway&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span&gt;Splits API and Content requests&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Manages traffic during releases&lt;/li&gt;&lt;li&gt;Maintenance page&lt;/li&gt;&lt;li&gt;internal / external user DC split&lt;/li&gt;&lt;li&gt;Keeps IPS free from non-product config&lt;/li&gt;&lt;li&gt;Blocks external traffic to AIB Auth service&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1001" y="560" width="249" height="170" as="geometry" />
         </mxCell>
         <mxCell id="7arDR_sjY8IiMj0KGwgR-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.744;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="QfznqnuBZ1IlKUxBiRQi-13" target="wRUYfPCryLNPpYMVrnq4-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
