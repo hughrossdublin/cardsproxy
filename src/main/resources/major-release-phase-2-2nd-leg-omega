@@ -1,4 +1,4 @@
-<mxfile modified="2020-04-23T10:58:41.279Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="-uuoGqbnKIXKW3gmUy0u" version="13.0.1" type="github">
+<mxfile modified="2020-04-23T11:07:32.920Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="-3MiE9nldNAjXh_7LDDo" version="13.0.1" type="github">
   <diagram name="Page-1" id="c37626ed-c26b-45fb-9056-f9ebc6bb27b6">
     <mxGraphModel dx="1406" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -226,22 +226,19 @@
             <mxPoint x="1121" y="498" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YRh1YL8sCt8WGsClfTue-58" value="&lt;h1&gt;SSO&lt;/h1&gt;&lt;p&gt;Alpha SSO now active, Omega inactive&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="892" y="615" width="190" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="YRh1YL8sCt8WGsClfTue-59" value="httpd.conf" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.script;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1520" y="315.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YRh1YL8sCt8WGsClfTue-60" value="httpd.conf" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.script;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="675" y="315.5" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YRh1YL8sCt8WGsClfTue-61" value="&lt;h1&gt;CFI&lt;/h1&gt;&lt;p&gt;Linux Firewall rule blocks requests to Omega auth service so VIP only directs to Alpha.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="897" y="800" width="190" height="120" as="geometry" />
+        <mxCell id="YRh1YL8sCt8WGsClfTue-61" value="&lt;h1&gt;CFI&lt;/h1&gt;&lt;p&gt;Linux Firewall rule blocks requests from VIP to Omega auth service so VIP only directs to Alpha.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="800" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YRh1YL8sCt8WGsClfTue-62" value="&lt;h1&gt;IHS&lt;/h1&gt;&lt;p&gt;Maintenance configuration is removed&lt;br&gt;&lt;span&gt;Omega OS Firewall Rule blocks requests from IHS VIP&lt;/span&gt;&lt;/p&gt;External Requests are directed to Alpha" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1240" y="287" width="190" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="YRh1YL8sCt8WGsClfTue-63" value="&lt;h1&gt;Edge&lt;/h1&gt;&lt;p&gt;Linux firewall rules applied to only allow requests from CX, DBS and Auth VMs&lt;br&gt;VIP Traffic is blocked on Omega&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="YRh1YL8sCt8WGsClfTue-63" value="&lt;h1&gt;Edge&lt;/h1&gt;&lt;p&gt;Linux firewall rules applied to only allow requests from CX, DBS and Auth VMs&lt;br&gt;VIP Traffic is blocked on Omega&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="656" y="403" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YRh1YL8sCt8WGsClfTue-66" value="" style="endArrow=none;startArrow=classic;html=1;strokeColor=#FF0000;exitX=0.723;exitY=0.017;exitDx=0;exitDy=0;rounded=1;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="YRh1YL8sCt8WGsClfTue-14">
@@ -258,6 +255,9 @@
               <mxPoint x="1720" y="570" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YRh1YL8sCt8WGsClfTue-58" value="&lt;h1&gt;SSO&lt;/h1&gt;&lt;p&gt;OS Firewall on auth service makes&lt;br&gt;Alpha SSO now active, Omega inactive&lt;br&gt;SSO VIP requests blocked on omega&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="650" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
